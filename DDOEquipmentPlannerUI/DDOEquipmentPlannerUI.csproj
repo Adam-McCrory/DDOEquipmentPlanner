@@ -1,0 +1,241 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\ddongp_icon.png" />
+    <None Remove="Resources\slot_bg_back.png" />
+    <None Remove="Resources\slot_bg_body.png" />
+    <None Remove="Resources\slot_bg_eye.png" />
+    <None Remove="Resources\slot_bg_feet.png" />
+    <None Remove="Resources\slot_bg_finger1.png" />
+    <None Remove="Resources\slot_bg_finger2.png" />
+    <None Remove="Resources\slot_bg_green_back.png" />
+    <None Remove="Resources\slot_bg_green_body.png" />
+    <None Remove="Resources\slot_bg_green_eye.png" />
+    <None Remove="Resources\slot_bg_green_feet.png" />
+    <None Remove="Resources\slot_bg_green_finger1.png" />
+    <None Remove="Resources\slot_bg_green_finger2.png" />
+    <None Remove="Resources\slot_bg_green_hand.png" />
+    <None Remove="Resources\slot_bg_green_head.png" />
+    <None Remove="Resources\slot_bg_green_neck.png" />
+    <None Remove="Resources\slot_bg_green_offhand.png" />
+    <None Remove="Resources\slot_bg_green_trinket.png" />
+    <None Remove="Resources\slot_bg_green_waist.png" />
+    <None Remove="Resources\slot_bg_green_weapon.png" />
+    <None Remove="Resources\slot_bg_green_wrist.png" />
+    <None Remove="Resources\slot_bg_hand.png" />
+    <None Remove="Resources\slot_bg_head.png" />
+    <None Remove="Resources\slot_bg_neck.png" />
+    <None Remove="Resources\slot_bg_offhand.png" />
+    <None Remove="Resources\slot_bg_trinket.png" />
+    <None Remove="Resources\slot_bg_waist.png" />
+    <None Remove="Resources\slot_bg_weapon.png" />
+    <None Remove="Resources\slot_bg_wrist.png" />
+    <None Remove="Resources\slot_fill_back.png" />
+    <None Remove="Resources\slot_fill_body_cloth.png" />
+    <None Remove="Resources\slot_fill_body_docent.png" />
+    <None Remove="Resources\slot_fill_body_heavy.png" />
+    <None Remove="Resources\slot_fill_body_light.png" />
+    <None Remove="Resources\slot_fill_body_medium.png" />
+    <None Remove="Resources\slot_fill_eye.png" />
+    <None Remove="Resources\slot_fill_feet.png" />
+    <None Remove="Resources\slot_fill_finger.png" />
+    <None Remove="Resources\slot_fill_hand.png" />
+    <None Remove="Resources\slot_fill_head.png" />
+    <None Remove="Resources\slot_fill_neck.png" />
+    <None Remove="Resources\slot_fill_offhand_buckler.png" />
+    <None Remove="Resources\slot_fill_offhand_large.png" />
+    <None Remove="Resources\slot_fill_offhand_orb.png" />
+    <None Remove="Resources\slot_fill_offhand_runearm.png" />
+    <None Remove="Resources\slot_fill_offhand_small.png" />
+    <None Remove="Resources\slot_fill_offhand_tower.png" />
+    <None Remove="Resources\slot_fill_trinket.png" />
+    <None Remove="Resources\slot_fill_waist.png" />
+    <None Remove="Resources\slot_fill_weapon.png" />
+    <None Remove="Resources\slot_fill_wrist.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EquipmentData\EquipmentDomain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\ddongp_icon.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\slot_bg_back.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\slot_bg_body.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\slot_bg_eye.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\slot_bg_feet.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\slot_bg_finger1.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\slot_bg_finger2.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\slot_bg_green_back.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\slot_bg_green_body.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\slot_bg_green_eye.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\slot_bg_green_feet.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\slot_bg_green_finger1.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\slot_bg_green_finger2.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\slot_bg_green_hand.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\slot_bg_green_head.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\slot_bg_green_neck.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\slot_bg_green_offhand.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\slot_bg_green_trinket.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\slot_bg_green_waist.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\slot_bg_green_weapon.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\slot_bg_green_wrist.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\slot_bg_hand.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\slot_bg_head.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\slot_bg_neck.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\slot_bg_offhand.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\slot_bg_trinket.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\slot_bg_waist.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\slot_bg_weapon.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\slot_bg_wrist.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\slot_fill_back.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\slot_fill_body_cloth.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\slot_fill_body_docent.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\slot_fill_body_heavy.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\slot_fill_body_light.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\slot_fill_body_medium.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\slot_fill_eye.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\slot_fill_feet.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\slot_fill_finger.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\slot_fill_hand.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\slot_fill_head.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\slot_fill_neck.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\slot_fill_offhand_buckler.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\slot_fill_offhand_large.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\slot_fill_offhand_orb.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\slot_fill_offhand_runearm.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\slot_fill_offhand_small.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\slot_fill_offhand_tower.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\slot_fill_trinket.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\slot_fill_waist.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\slot_fill_weapon.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\slot_fill_wrist.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="Controls\EquipmentSlotControl.xaml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Page>
+    <Page Update="Controls\ListViewCustomItemProperties.xaml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Page>
+    <Page Update="Controls\ListViewItemProperties.xaml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Page>
+    <Page Update="Controls\RangeSlider.xaml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Page>
+    <Page Update="Controls\SlaveLordItemProperties.xaml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Page>
+  </ItemGroup>
+
+</Project>
